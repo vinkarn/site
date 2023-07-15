@@ -28,7 +28,7 @@
   --dl-color-backgrounds-gray: #f7f4f2ff;
   --dl-space-space-threeunits: 48px;
   --dl-color-backgrounds-green: #2b584dff;
-  --dl-color-backgrounds-purple: #623373ff;
+  --dl-color-backgrounds-purple: #004aad;
   --dl-color-backgrounds-primary: #65A147;
   --dl-color-backgrounds-darkblue: #364570ff;
   --dl-space-space-oneandhalfunits: 24px;
@@ -234,4 +234,10 @@
     padding-top: var(--dl-space-space-twounits);
     padding-bottom: var(--dl-space-space-twounits);
   }
+}
+
+.copy-button {
+  background-color: var(--dl-color-backgrounds-primary);
+  border-radius: 10%;
+  padding: 2px;
 }
