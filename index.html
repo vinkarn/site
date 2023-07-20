@@ -4,7 +4,7 @@
     <title>Grow Your Saving</title>
     <meta property="og:title" content="Grow Your Saving mobile app" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keyword" content="growyoursaving, grow your saving,  " />
+    <meta name="keyword" content="growyoursaving.com, grow, your, saving, finance, money" />
 	<meta name="title" content="Grow Your Saving" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<meta property="og:title" content="Grow Your Saving | The best " />
@@ -226,17 +226,14 @@
           <div class="home-section-one section-container">
             <div class="home-max-width1 max-content-container">
               <h2 class="home-text06 Heading2" id="services">
-                <span>Read</span>
-                <span class="home-text08">everything in one place</span>
-                <span>and</span>
-                <br />
-                <span>keep up with important news</span>
+                <span>Services</span>
+                <span class="home-text08">that we offer to our lovely customers</span>
               </h2>
               <div class="home-cards-container">
                 <div class="feature-card-card">
                   <img
                     alt="image"
-                    src="public/stars-200h.png"
+                    src="public/stock-chart-up.png"
                     class="feature-card-image"
                   />
                   <h4 class="feature-card-text Heading4">
@@ -550,17 +547,45 @@
           <div class="home-section-four section-container" id="contact">
             <div class="home-text24 Heading2">Have any Query, Contact US</div>
             <div>
-              <strong>Anmol Singh</strong>:
-              <span class="copy-text">+91 87550-73748</span>
-              <button class="copy-button">copy</button>
-               <i class="fa-solid fa-phone"></i>  
-               <i class="fa-brands fa-whatsapp"></i> 
+              <strong class="home-text23">Anmol Singh</strong>:
+              <span class="copy-text">+918755073748</span>
+              <button class="copy-button">
+                <i class="fa-clipboard fa-regular"></i>
+              </button>
+
+              <button class="redirect-phone">
+                <a href="tel:+918755073748">
+                  <i class="fa-solid fa-phone"></i>  
+                </a>
+              </button>
+
+              <button>
+                <a href="https://wa.me/918755073748?text=Hi, I want to start my Investment Journey!">
+                  <i class="fa-brands fa-whatsapp"></i> 
+                </a>
+              </button>
             </div>
 
             <div>
               <strong>Vinayak Sharma</strong>: 
               <span class="copy-text">+91 99970-23766</span>
-              <button class="copy-button">copy</button>
+
+              <button class="copy-button">
+                <i class="fa-clipboard fa-regular"></i>
+              </button>
+
+              <button>
+                <a href="tel:+919997023766">
+                  <i class="fa-solid fa-phone"></i>  
+                </a>
+              </button>
+
+              <button class="redirect-phone">
+                <a href="https://wa.me/919997023766?text=Hi, I want to start my Investment Journey!">
+                  <i class="fa-brands fa-whatsapp"></i>  
+                </a>
+              </button>
+
             </div>
           </div>
         </main>
@@ -609,7 +634,7 @@
                   </svg>
                 </div>
               </div> -->
-            </div>
+            <!-- </div> -->
             <!-- <div class="footer-links">
               <div class="footer-container2">
                 <span class="footer-text02">Product</span>
@@ -621,8 +646,8 @@
               <div class="footer-container3">
                 <span class="footer-text08">Resources</span>
                 <span class="footer-link">FAQs</span>
-              </div>
-            </div> -->
+              </div> -->
+            </div>
           </div>
         </footer>
       </div>
@@ -636,6 +661,7 @@
 
         const listenForUrlChanges = () => {
           let url = location.href;
+          
           document.body.addEventListener(
             "click",
             () => {
@@ -706,9 +732,9 @@
 
     <script>
       let copy_buttons = document.querySelectorAll(".copy-button");
-      let x = 0;
 
-      for (let x=0; x < copy_buttons.length; x++) {
+      let x = 0;
+      for (x=0; x<copy_buttons.length; x++) {
         let btn = copy_buttons[x]
         btn.addEventListener(
           "click",
