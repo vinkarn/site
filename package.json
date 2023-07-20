@@ -1,10 +1,11 @@
 {
-  "name": "feedbox-mobile-app",
+  "name": "gys",
   "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1"
+  "description": "A site for Grow Your Saving",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "author": "Vipul Kumar",
+  "license": "ISC"
 }
