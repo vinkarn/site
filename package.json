@@ -4,8 +4,11 @@
   "description": "A site for Grow Your Saving",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node server.js"
   },
   "author": "Vipul Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
