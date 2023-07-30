@@ -1,0 +1,16 @@
+            <img alt="logo" src="media/logo.png" class="navbar-image" />
+                  src="media/graph-screen.png"
+                    src="public/stock-chart-up.png"
+                  <!-- <img src="media/equity.png" alt="" srcset=""> -->
+                    src="public/mail-200h.png"
+                    src="public/paper-200h.png"
+                  src="media/happy women.jpg"
+              <img src="media/forex-vs-stocks_1_1-sixteen_nine.avif" alt="image" class="home-image2">
+                        src="public/union-200h.png"
+                        src="https://images.unsplash.com/photo-1508002366005-75a695ee2d17?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUxfHxzbWlsZXxlbnwwfHx8fDE2NDM0MDc4MTE&amp;ixlib=rb-1.2.1&amp;w=700"
+                        src="public/union-200h.png"
+                        src="public/vector%202-700w.png"
+                        src="public/union-200h.png"
+                        src="public/vector%202%20%5B2%5D-700w.png"
+                src="media/gys.png"
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
